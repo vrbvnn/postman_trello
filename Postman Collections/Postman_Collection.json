@@ -584,7 +584,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e8fde3ae-3c55-439f-8664-ba539610f9a3",
+				"id": "c8a2b88c-3af7-40f1-8212-5df6cbc495a5",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -594,7 +594,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e6f4a8c2-41d9-4add-80ad-8ff60540a246",
+				"id": "5d131f01-d84a-497f-ab23-038d342ef890",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -604,39 +604,39 @@
 	],
 	"variable": [
 		{
-			"id": "640b3a2a-210b-463a-8bb3-cf844769ead8",
+			"id": "32896bd3-85f8-4c9e-ba6e-a77e19d6969b",
 			"key": "base_url",
 			"value": "https://api.trello.com"
 		},
 		{
-			"id": "1b355831-6450-4f51-8a54-777f2a2ea880",
+			"id": "36b0b759-f234-4be1-b93a-871bdfb4e247",
 			"key": "key",
 			"value": "738409de7530f058abc97d74d590c184"
 		},
 		{
-			"id": "785f2648-1e91-4590-bde9-b02589a2bd31",
+			"id": "ba5d306e-60a4-484d-95ac-5a117a0fb8e6",
 			"key": "token",
-			"value": "token"
+			"value": "630580545dfeaa15311c8e95615c6f46e094844dfd593ff5dbaaa1bed2ae05fb"
 		},
 		{
-			"id": "c461e564-cf32-424f-899e-928238b47f7a",
+			"id": "af84d574-85c6-4337-87e7-614082f38084",
 			"key": "board_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8789fe30-9808-4968-bba4-4855c457b541",
+			"id": "8556302a-1dea-4139-8483-3ab25eabd32c",
 			"key": "list_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "617f3592-6242-4823-a766-51d34a6cab52",
+			"id": "6bb8a31a-ba0f-4b41-af03-9f8c4cd28416",
 			"key": "card_id",
 			"value": ""
 		},
 		{
-			"id": "53fe72ae-6c4f-4022-b515-a9764e0b4c3e",
+			"id": "08bd0673-aa47-454a-82be-2f65a0f7a06b",
 			"key": "checklist_id",
 			"value": ""
 		}
