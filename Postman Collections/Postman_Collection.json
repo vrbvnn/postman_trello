@@ -29,7 +29,7 @@
 					}
 				}
 			],
-			"_postman_id": "efa06b99-1758-48dc-a2a3-241e55b9f86a",
+			"id": "efa06b99-1758-48dc-a2a3-241e55b9f86a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -92,7 +92,7 @@
 					}
 				}
 			],
-			"_postman_id": "4e598317-994b-40e5-bbc5-ee0a2910555f",
+			"id": "4e598317-994b-40e5-bbc5-ee0a2910555f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -124,8 +124,7 @@
 					"variable": [
 						{
 							"key": "board_id",
-							"value": "{{board_id}}",
-							"type": "string"
+							"value": "{{board_id}}"
 						}
 					]
 				}
@@ -153,7 +152,7 @@
 					}
 				}
 			],
-			"_postman_id": "67dacba0-5a78-4317-ab03-14e82089b450",
+			"id": "67dacba0-5a78-4317-ab03-14e82089b450",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -162,10 +161,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {}
-					}
+					"raw": ""
 				},
 				"url": {
 					"raw": "{{base_url}}/1/boards/:board_id/lists?key={{key}}&token={{token}}&name={{$randomWeekday}}",
@@ -196,8 +192,7 @@
 					"variable": [
 						{
 							"key": "board_id",
-							"value": "{{board_id}}",
-							"type": "string"
+							"value": "{{board_id}}"
 						}
 					]
 				}
@@ -227,7 +222,7 @@
 					}
 				}
 			],
-			"_postman_id": "04d2c760-c679-40eb-bd37-f5c5108b6f8b",
+			"id": "04d2c760-c679-40eb-bd37-f5c5108b6f8b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -236,10 +231,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {}
-					}
+					"raw": ""
 				},
 				"url": {
 					"raw": "{{base_url}}/1/lists/:list_id?key={{key}}&token={{token}}&name=Контактные данные",
@@ -269,8 +261,7 @@
 					"variable": [
 						{
 							"key": "list_id",
-							"value": "{{list_id}}",
-							"type": "string"
+							"value": "{{list_id}}"
 						}
 					]
 				}
@@ -298,7 +289,7 @@
 					}
 				}
 			],
-			"_postman_id": "5a60120a-3e33-4000-a1fd-c081b9ab30ad",
+			"id": "5a60120a-3e33-4000-a1fd-c081b9ab30ad",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -307,10 +298,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {}
-					}
+					"raw": ""
 				},
 				"url": {
 					"raw": "{{base_url}}/1/cards?key={{key}}&token={{token}}&name={{$randomFullName}}&idList={{list_id}}",
@@ -365,7 +353,7 @@
 					}
 				}
 			],
-			"_postman_id": "1c17b074-a20f-4624-80b2-f268331254e1",
+			"id": "1c17b074-a20f-4624-80b2-f268331254e1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -374,10 +362,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {}
-					}
+					"raw": ""
 				},
 				"url": {
 					"raw": "{{base_url}}/1/checklists?key={{key}}&token={{token}}&name=Способы связи&idCard={{card_id}}",
@@ -432,7 +417,7 @@
 					}
 				}
 			],
-			"_postman_id": "d78f28d0-1d99-4d32-833d-3e072ffaf926",
+			"id": "d78f28d0-1d99-4d32-833d-3e072ffaf926",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -441,10 +426,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {}
-					}
+					"raw": ""
 				},
 				"url": {
 					"raw": "{{base_url}}/1/checklists/:id/checkitems?key={{key}}&token={{token}}&name={{$randomPhoneNumber}}",
@@ -475,8 +457,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "{{checklist_id}}",
-							"type": "string"
+							"value": "{{checklist_id}}"
 						}
 					]
 				}
@@ -502,7 +483,7 @@
 					}
 				}
 			],
-			"_postman_id": "8c6743e4-6947-4845-9b06-aa428f18de6e",
+			"id": "8c6743e4-6947-4845-9b06-aa428f18de6e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -533,8 +514,7 @@
 					"variable": [
 						{
 							"key": "board_id",
-							"value": "{{board_id}}",
-							"type": "string"
+							"value": "{{board_id}}"
 						}
 					]
 				}
@@ -561,7 +541,7 @@
 					}
 				}
 			],
-			"_postman_id": "8aa2b2ec-a2d3-40e8-a818-e1921a1af9f3",
+			"id": "8aa2b2ec-a2d3-40e8-a818-e1921a1af9f3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -592,8 +572,7 @@
 					"variable": [
 						{
 							"key": "board_id",
-							"value": "{{board_id}}",
-							"type": "string"
+							"value": "{{board_id}}"
 						}
 					]
 				}
@@ -605,7 +584,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "6b296af5-f42c-4e1e-8cba-5863b6eae6f3",
+				"id": "e8fde3ae-3c55-439f-8664-ba539610f9a3",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -615,7 +594,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "aa3cddd1-ac54-48db-bd06-d8edade47509",
+				"id": "e6f4a8c2-41d9-4add-80ad-8ff60540a246",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -625,46 +604,41 @@
 	],
 	"variable": [
 		{
-			"id": "8c89cc87-38ed-45d5-94e7-c4ebd91bd895",
+			"id": "640b3a2a-210b-463a-8bb3-cf844769ead8",
 			"key": "base_url",
-			"value": "https://api.trello.com",
-			"type": "string"
+			"value": "https://api.trello.com"
 		},
 		{
-			"id": "ab8085d1-725f-40a0-a85c-0b9318bdbc64",
+			"id": "1b355831-6450-4f51-8a54-777f2a2ea880",
 			"key": "key",
-			"value": "key",
-			"type": "string"
+			"value": "738409de7530f058abc97d74d590c184"
 		},
 		{
-			"id": "af220dc6-9acc-406f-b2b7-e984a70c2eeb",
+			"id": "785f2648-1e91-4590-bde9-b02589a2bd31",
 			"key": "token",
-			"value": "token",
-			"type": "string"
+			"value": "token"
 		},
 		{
-			"id": "907fb261-461a-4570-9006-b0faa2ca327a",
+			"id": "c461e564-cf32-424f-899e-928238b47f7a",
 			"key": "board_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "9b4cb0e1-a12b-4486-b6ca-cfce8a756d33",
+			"id": "8789fe30-9808-4968-bba4-4855c457b541",
 			"key": "list_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "287e3342-4909-45dd-a948-824f6f9b3e72",
+			"id": "617f3592-6242-4823-a766-51d34a6cab52",
 			"key": "card_id",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "32586ada-b397-41b8-b79b-514ae4708ecf",
+			"id": "53fe72ae-6c4f-4022-b515-a9764e0b4c3e",
 			"key": "checklist_id",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
